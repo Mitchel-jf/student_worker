@@ -14,7 +14,7 @@ To have the updated code on your computer
 ```
 git pull upstream main
 ```
-4 npm install || yarn install 
+4 npm install | | yarn install 
 
 5 Create your branch and push your work
 
