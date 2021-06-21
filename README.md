@@ -14,32 +14,34 @@ To have the updated code on your computer
 ```
 git pull upstream main
 ```
-4 Create your branch and push your work
+4 npm install || yarn install 
 
-5 Create a `.env` in the root directory and fill with respective ports and database connection
+5 Create your branch and push your work
+
+6 Create a `.env` in the root directory and fill with respective ports and database connection
 ```
 PORT = ''
 MONGO = ''
 ```
-6 Start server 
+7 Start server 
 ```
-npm start
+npm start || yarn start
 ```
-7 with nodemon
+8 with nodemon
 ```
-npm run start:dev
+npm run start:dev || yarn run start:dev
 ```
 
 ## Student endpoints
 
 TEST WITH POSTMAN
 
-1 Register new students (For development)
+- Register new students (For development)
 
 `localhost:${PORT}/studentSignup` with a POST request using the schema in [student.js](https://github.com/Mitchel-jf/student_worker/blob/main/src/models/student.js) file as guide
 
 
-2 Login (for only registered students)
+- Login (for only registered students)
 
 `localhost:${PORT}/studentLogin` with a POST request using just email and password
 
