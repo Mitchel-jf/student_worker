@@ -28,7 +28,6 @@ connectDB() // creates a connection to the database
 // into different files possible 
 app.use(signupRoutes);
 
-
 // login routess
 app.use(loginRoutes);
 

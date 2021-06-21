@@ -33,13 +33,13 @@ const StudentSchema = new mongoose.Schema(
             required: true,
             trim: true
         },
-        password : {
+
+        password: {
             type: String,
-            required: true
+
         }
     },
-    { collection: 'students' }
-)
+    { collection: 'students' })
 
 // this will keep the email field always unique
 StudentSchema.index({ email: 1 }, { unique: true })
