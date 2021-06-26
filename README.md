@@ -2,9 +2,9 @@
 This is the backend version of the Student-Worker App by PJT-10 from the Zuri Training
 
 ## A Guide To Get Started
-1 Folk this [project](https://github.com/Mitchel-jf/student_worker/)
+1 Fork this [project](https://github.com/Mitchel-jf/student_worker/)
 
-2 Git clone your own folked project to your computer
+2 Git clone your own forked project to your computer
 
 3 Before you make any changes, keep your fork in sync to avoid merge conflicts:
 ```
@@ -35,6 +35,10 @@ npm run start:dev || yarn run start:dev
 ## Student endpoints
 
 TEST WITH POSTMAN
+
+Base Url:
+Cloud: https://studentworker.herokuapp.com
+Local: localhost:${PORT}
 
 - Register new students (For development)
 
